@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/javascripts/socks.js"></script>
+</head>
+<body>
+<h3><%= title %></h3>
+<p>Press the button to send data.</p>
+<p><button id="send_it">Send data</button></p>
+<br><br>
+<p><h4>Send a private message</h4>
+    Username: <input id="user" type="text"><br>
+    Message: <input id="messageBody" type="text"><br>
+    <button id="sendMessage">Send</button>
+</p>
+</body>
+</html>
